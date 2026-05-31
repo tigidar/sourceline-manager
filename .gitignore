@@ -1,0 +1,24 @@
+out/
+.bsp/
+.metals/
+.bloop/
+.scala-build/
+mill.*
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+
+# JVM
+*.class
+*.log
+hs_err_pid*
+
+# Nix
+result
+result-*
+.direnv/

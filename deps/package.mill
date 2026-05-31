@@ -1,0 +1,3 @@
+// Anchors the `deps/` folder so Mill 1.x discovers sibling `*.mill` helpers
+// (notably `Dependencies.mill`).
+package build.deps

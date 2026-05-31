@@ -1,0 +1,7 @@
+package build.deps
+
+import mill.*, scalalib.*
+
+object Deps:
+  val munit           = mvn"org.scalameta::munit::1.0.3"
+  val munitScalacheck = mvn"org.scalameta::munit-scalacheck::1.0.0"
