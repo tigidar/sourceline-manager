@@ -21,7 +21,7 @@ object V {
 
   val organization   = "no.virtual-architect"
   val artifact       = "sourceline-manager"
-  val projectVersion = "0.2.0-SNAPSHOT"
+  val projectVersion = "0.1.0-SNAPSHOT"
 }
 
 trait SlmCommon extends CrossScalaModule with PublishModule {
